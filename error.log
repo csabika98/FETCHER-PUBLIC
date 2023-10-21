@@ -1,0 +1,1220 @@
+ERROR:root:[Errno 10109] getaddrinfo failed
+ERROR:root:[Errno 10109] getaddrinfo failed
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:paramiko.transport:Exception (client): Error reading SSH protocol banner
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 611, in _read_timeout
+ERROR:paramiko.transport:    raise socket.timeout()
+ERROR:paramiko.transport:TimeoutError
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2296, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+ERROR:paramiko.transport:
+ERROR:root:Error reading SSH protocol banner
+ERROR:paramiko.transport:Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2296, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:paramiko.transport:
+ERROR:root:Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:root:
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno 10109] getaddrinfo failed
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 3339 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 3339 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 3339 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 3339 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 3339 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 3339 on 127.0.0.1 or ::1
+ERROR:paramiko.transport:Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2296, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:paramiko.transport:
+ERROR:root:Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:paramiko.transport:Exception (client): Error reading SSH protocol banner
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 611, in _read_timeout
+ERROR:paramiko.transport:    raise socket.timeout()
+ERROR:paramiko.transport:TimeoutError
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2296, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+ERROR:paramiko.transport:
+ERROR:root:Error reading SSH protocol banner
+ERROR:paramiko.transport:Exception (client): Error reading SSH protocol banner
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 611, in _read_timeout
+ERROR:paramiko.transport:    raise socket.timeout()
+ERROR:paramiko.transport:TimeoutError
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2296, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+ERROR:paramiko.transport:
+ERROR:root:Error reading SSH protocol banner
+ERROR:paramiko.transport:Exception (client): Error reading SSH protocol banner
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 611, in _read_timeout
+ERROR:paramiko.transport:    raise socket.timeout()
+ERROR:paramiko.transport:TimeoutError
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2296, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+ERROR:paramiko.transport:
+ERROR:root:Error reading SSH protocol banner
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:main thread is not in main loop
+ERROR:root:[Errno None] Unable to connect to port 2226 on 127.0.0.1 or ::1
+ERROR:root:[Errno None] Unable to connect to port 2026 on 127.0.0.1 or ::1
+ERROR:root:ProxyCommand.__init__() missing 1 required positional argument: 'command_line'
+ERROR:paramiko.transport:Exception (client): ProxyCommand("ssh") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("ssh") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("ssh") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("ssh -W %h:%p -p 22 inncssa@jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("ssh -W %h:%p -p 22 inncssa@jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("ssh -W %h:%p -p 22 inncssa@jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("ssh -W %h:%p -p 22 inncssa@jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("./plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("./plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("ssh -W %h:%p -p 22 inncssa@jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("ssh -W %h:%p -p 22 inncssa@jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("ssh -W %h:%p -p 22 inncssa@jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("ssh -W %h:%p -p 22 inncssa@jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Socket exception: An existing connection was forcibly closed by the remote host (10054)
+ERROR:paramiko.transport:Socket exception: An existing connection was forcibly closed by the remote host (10054)
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:        ^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\AppData\Local\Programs\Python\Python311\Lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Socket exception: An existing connection was forcibly closed by the remote host (10054)
+ERROR:paramiko.transport:Socket exception: An existing connection was forcibly closed by the remote host (10054)
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Socket exception: An existing connection was forcibly closed by the remote host (10054)
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i pathtoyoursshkey jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 107, in recv
+ERROR:paramiko.transport:    r, w, x = select([self.process.stdout], [], [], select_timeout)
+ERROR:paramiko.transport:OSError: [WinError 10038] An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\proxy.py", line 119, in recv
+ERROR:paramiko.transport:    raise ProxyCommandFailure(" ".join(self.cmd), e.strerror)
+ERROR:paramiko.transport:paramiko.ssh_exception.ProxyCommandFailure: ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:
+ERROR:root:ProxyCommand("C:/Users/CsabaSallai/Desktop/latest_rel/FETCHER/plink.exe -ssh -P 22 -l inncssa -i C:/Users/CsabaSallai/Desktop/PrivateKey/priv2.ppk jumphost.oman.innoveo-skye.net") returned nonzero exit status: An operation was attempted on something that is not a socket
+ERROR:paramiko.transport:Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2292, in _check_banner
+ERROR:paramiko.transport:    buf = self.packetizer.readline(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 374, in readline
+ERROR:paramiko.transport:    buf += self._read_timeout(timeout)
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\packet.py", line 601, in _read_timeout
+ERROR:paramiko.transport:    x = self.__socket.recv(128)
+ERROR:paramiko.transport:ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:During handling of the above exception, another exception occurred:
+ERROR:paramiko.transport:
+ERROR:paramiko.transport:Traceback (most recent call last):
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2113, in run
+ERROR:paramiko.transport:    self._check_banner()
+ERROR:paramiko.transport:  File "C:\Users\CsabaSallai\Desktop\latest_rel\FETCHER\.venv\lib\site-packages\paramiko\transport.py", line 2296, in _check_banner
+ERROR:paramiko.transport:    raise SSHException(
+ERROR:paramiko.transport:paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:paramiko.transport:
+ERROR:root:Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:root:[Errno None] Unable to connect to port 4000 on 127.0.0.1 or ::1
+ERROR:root:[Errno 10109] getaddrinfo failed
+ERROR:root:[Errno 10109] getaddrinfo failed
+ERROR:root:[Errno 10109] getaddrinfo failed
+ERROR:root:[Errno 10109] getaddrinfo failed
